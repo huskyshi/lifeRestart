@@ -72,6 +72,7 @@ class Talent {
                 const random = Math.floor(Math.random()*length) % length;
                 return talentList[grade].splice(random,1)[0];
             });
+        print(Array); 
     }
 
     allocationAddition(talents) {
